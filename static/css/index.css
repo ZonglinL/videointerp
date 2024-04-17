@@ -2,15 +2,15 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-#imageContainer {
+.imageContainer {
   position: relative;
   width: 100%;
   height: auto;
   overflow: hidden;
 }
 
-#leftImage,
-#rightImage {
+.leftImage,
+.rightImage {
   position: absolute;
   top: 0;
   width: 100%;
