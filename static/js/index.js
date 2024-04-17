@@ -19,16 +19,3 @@ $(document).ready(function() {
     bulmaSlider.attach();
 
 })
-
-function moveImages(event) {
-  var containerWidth = document.getElementById('imageContainer').offsetWidth;
-  var mouseX = event.clientX;
-
-  var ratio = mouseX / containerWidth;
-
-  var leftTranslate = -100 * ratio;
-  var rightTranslate = 100 - (100 * ratio);
-
-  document.getElementById('leftImage').style.transform = 'translateX(' + leftTranslate + '%)';
-  document.getElementById('rightImage').style.transform = 'translateX(' + rightTranslate + '%)';
-}
