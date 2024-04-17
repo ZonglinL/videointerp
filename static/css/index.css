@@ -2,12 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 
 .footer .icon-link {
     font-size: 25px;
@@ -122,11 +116,13 @@ body {
 }
 
 .results-carousel .item {
-  margin: 5px;
   overflow: hidden;
   padding: 20px;
   font-size: 0;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .results-carousel video {
