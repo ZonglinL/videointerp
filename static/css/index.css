@@ -2,12 +2,26 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+#imageContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
+
+#leftImage,
+#rightImage {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+#rightImage {
+  transform: translateX(100%);
+}
+
 
 .footer .icon-link {
     font-size: 25px;
