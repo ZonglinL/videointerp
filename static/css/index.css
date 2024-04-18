@@ -2,10 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
-#rightImage {
-  transform: translateX(100%);
-}
-
 
 .footer .icon-link {
     font-size: 25px;
