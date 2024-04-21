@@ -154,7 +154,30 @@
 </section>
 <!-- End paper abstract -->
 
-
+<!-- Overview image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our consecutive Brownian Bridge transits among three points: previous frame I<sub>0</sub>, current frame I<sub>n</sub>, and next frame I<sub>1</sub>. To be more efficient, images are encoded to latent space, and the encoder features of neighboring frames are passed to the decoder.
+            
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-body">
+    <img src="static/images/overview.jpg" alt="overview"/>
+      </img>
+      <h2 class="subtitle has-text-centered">
+        Overview of our method. (a) Autoencoder The encoder features of neighboring frames are passed to the decode to provide detail information. (b) Ground truth estimation with diffusion. Images are encoded to latent representations to effciently implement diffusion models. (c) Inference. During inference, the sampled latent representation are decoded, with the assistance of features from neighboring frames.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End overview image -->
                   
 
 <!-- Image carousel -->
