@@ -163,8 +163,7 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified">
           <p>
-            Our consecutive Brownian Bridge transits among three points: previous frame I<sub>0</sub>, current frame I<sub>n</sub>, and next frame I<sub>1</sub>. To be more efficient, images are encoded to latent space, and the encoder features of neighboring frames are passed to the decoder.
-            
+              Recent diffusion-based methods in Video Frame Interpolation (VFI) uses conditional generation, but the variances at each sampling step will accumulate. VFI requires low-variance generation because the ground truth is determinsitic. Our consecutive Brownian Bridge transits among three points: previous frame I<sub>0</sub>, current frame I<sub>n</sub>, and next frame I<sub>1</sub>, and achieves lower accumulated vairance than the conditional generation (ours is about 2 while conditional generation is more than 11). To be more efficient, images are encoded to latent space, and the encoder features of neighboring frames are passed to the decoder. We also take advangtage of optical flows estimation to warp the encoder features of neighborng frame and fuse them with the decoder features of the intermediate frame.
           </p>
         </div>
       </div>
